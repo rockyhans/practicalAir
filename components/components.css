@@ -1,0 +1,242 @@
+.body {
+  background-color: whitesmoke;
+}
+
+.header {
+  height: 70px;
+  width: auto;
+  margin: 0;
+  background-color: snow;
+  box-shadow: 0px 2px 5px rgb(234, 232, 232);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+}
+
+.header-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 0px;
+  gap: 25px;
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.logoDiv img {
+  height: 40px;
+  width: auto;
+}
+
+.components {
+  background-color: transparent;
+  display: flex;
+  gap: 10px;
+}
+
+.components button {
+  border: none;
+  background: none;
+  color: grey;
+  font-size: 12px;
+  font-weight: 500;
+  transition: color 0.5s ease;
+}
+
+.components button:hover {
+  color: rgb(176, 174, 174);
+}
+
+.media-button-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.media-options {
+  position: absolute;
+  top: -10px;
+  left: 120px;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.media-button-wrapper:hover .media-options {
+  display: flex;
+}
+
+.media-icon {
+  width: 36px;
+  height: 36px;
+  background-color: #00b894;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.media-icon:hover {
+  background-color: #019875;
+}
+
+.btn i {
+  margin-left: 5px;
+}
+
+.arrowIcon {
+  position: absolute;
+  font-size: 7px;
+  font-weight: 900;
+  margin-top: 2px;
+}
+
+.header-right {
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  display: flex;
+}
+
+.ragister {
+  display: flex;
+}
+
+.menuIcon i {
+  margin: -9px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.signin,
+.signup button {
+  border: 3px solid blue;
+  background: none;
+  border-radius: 7px;
+  padding: 7px;
+  margin-right: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color 1s ease, color 0.5s ease;
+  color: grey;
+}
+
+.signup button:hover {
+  background-color: blue;
+  color: snow;
+}
+
+.signin button {
+  border: none;
+  background: none;
+  margin-right: -15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
+  transition: color 0.5s ease;
+}
+
+.signin button:hover {
+  color: rgb(176, 174, 174);
+}
+
+.ndNav {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.smallText {
+  display: flex;
+  font-size: 12px;
+  gap: 3px;
+}
+
+.smallText i {
+  font-weight: bolder;
+  font-size: 9px;
+  margin-top: 3px;
+}
+
+.smallText p {
+  color: blue;
+}
+
+.downText {
+  font-size: 12px;
+}
+
+.ipoText h3 {
+  text-align: left;
+  font-weight: 650;
+  color: black;
+}
+
+.mainPage {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.main {
+  background-color: snow;
+  box-shadow: 0px 2px 5px rgb(234, 232, 232);
+  padding: 10px;
+}
+
+.mainComp {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.mainComp img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.flexDiv1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+  color: blue !important;
+}
+
+.divivi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hiii {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.someText {
+  font-weight: 500;
+  color: black;
+}
+
+.referencePage {
+  padding-bottom: 20px;
+}

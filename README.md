@@ -4,7 +4,6 @@ app.js
       <div className="mainPage">
         <NdNav />
         <MainC />
-
         <Reference />
       </div>
     </div>
